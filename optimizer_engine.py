@@ -72,6 +72,8 @@ class ObjectiveConfig:
 def _normalize_cohesion(raw_coh: float, W_und: np.ndarray, method: str) -> float:
     if method == "none":
         return raw_coh
+    if method == "identity":
+        return float(np.clip(raw_coh, 0.0, 1.0))
     if method == "edge_max":
         mx = float(np.max(W_und))
         if mx <= 1e-9:

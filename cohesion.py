@@ -5,7 +5,7 @@ from typing import List, Literal
 
 import numpy as np
 
-CohesionMode = Literal["arithmetic_mean", "geometric_mean", "algebraic_connectivity"]
+CohesionMode = Literal["arithmetic_mean", "geometric_mean", "algebraic_connectivity", "entropy"]
 
 @dataclass(frozen=True)
 class CohesionConfig:
@@ -57,6 +57,29 @@ def _algebraic_connectivity(sub: np.ndarray) -> float:
     eigvals = np.sort(eigvals)
     return float(eigvals[1]) if len(eigvals) >= 2 else 0.0
 
+def _entropy_cohesion(sub: np.ndarray, eps: float) -> float:
+    """Normalized Shannon entropy of the edge weight distribution.
+
+    Returns H / H_max in [0, 1], where 1 means perfectly uniform passing
+    across all player pairs and 0 means all passing concentrated on a
+    single edge.
+    """
+    n = sub.shape[0]
+    if n < 2:
+        return 0.0
+    vals = sub[np.triu_indices(n, k=1)]
+    vals = np.maximum(vals, 0.0) + eps
+    total = vals.sum()
+    if total <= eps * len(vals):
+        return 0.0
+    p = vals / total
+    H = -np.sum(p * np.log(p))
+    H_max = np.log(len(vals))
+    if H_max <= 0.0:
+        return 0.0
+    return float(H / H_max)
+
+
 def _star_centralization_penalty(sub: np.ndarray, eps: float) -> float:
     n = sub.shape[0]
     if n < 3:
@@ -78,6 +101,8 @@ def cohesion_value(W_und: np.ndarray, idx: List[int], cfg: CohesionConfig) -> fl
         base = _geometric_mean_strength(sub, cfg.epsilon)
     elif cfg.mode == "algebraic_connectivity":
         base = _algebraic_connectivity(sub)
+    elif cfg.mode == "entropy":
+        base = _entropy_cohesion(sub, cfg.epsilon)
     else:
         raise ValueError(f"Unknown cohesion mode: {cfg.mode}")
 
