@@ -1,0 +1,408 @@
+{
+  "1._fc_heidenheim_1846": {
+    "resolved": "1._fc_heidenheim_1846",
+    "lineup": {
+      "GK": "Kevin M\u00fcller",
+      "LB": "Jonas F\u00f6hrenbach",
+      "CB1": "Patrick Mainka",
+      "CB2": "Tim Siersleben",
+      "RB": "Omar Traor\u00e9",
+      "DM": "Jan Sch\u00f6ppner",
+      "CM": "Kevin Sessa",
+      "AM": "Adrian Beck",
+      "LW": "Niklas Beste",
+      "ST": "Tim Kleindienst",
+      "RW": "Eren Dink\u00e7i"
+    },
+    "objective": {
+      "total": 0.49582188938954924,
+      "kpi_norm": 0.6688262195726657,
+      "net_norm": 0.474630125234668,
+      "cohesion_norm": 0.15687715040827674,
+      "kpi_term": 0.7028810109075823,
+      "net_term": -0.10156672090756812,
+      "cohesion_raw": 1.2845308375236433
+    }
+  },
+  "1._fc_koeln": {
+    "resolved": "1._fc_koeln",
+    "lineup": {
+      "GK": "Marvin Schw\u00e4be",
+      "LB": "Leart Pa\u00e7arada",
+      "CB1": "Jeff Chabot",
+      "CB2": "Timo H\u00fcbers",
+      "RB": "Rasmus Carstensen",
+      "DM": "Florian Kainz",
+      "CM": "Eric Martel",
+      "AM": "Dejan Ljubicic",
+      "LW": "Max Finkgr\u00e4fe",
+      "ST": "Mark Uth",
+      "RW": "Denis Huseinbasic"
+    },
+    "objective": {
+      "total": 0.5151024635924333,
+      "kpi_norm": 0.7029445707871101,
+      "net_norm": 0.44531071755738066,
+      "cohesion_norm": 0.16268216454809703,
+      "kpi_term": 0.8613592902907296,
+      "net_term": -0.21963582530545567,
+      "cohesion_raw": 1.4884667331415504
+    }
+  },
+  "1._fc_union_berlin": {
+    "resolved": "1._fc_union_berlin",
+    "lineup": {
+      "GK": "Frederik R\u00f6nnow",
+      "LB": "Diogo Leite",
+      "CB1": "Kevin Vogt",
+      "CB2": "Danilho Doekhi",
+      "RB": "Christopher Trimmel",
+      "DM": "Rani Khedira",
+      "CM": "Robin Gosens",
+      "AM": "Lucas Tousart",
+      "LW": "Sheraldo Becker",
+      "ST": "Kevin Behrens",
+      "RW": "Kevin Volland"
+    },
+    "objective": {
+      "total": 0.4744361978503722,
+      "kpi_norm": 0.6646044177567668,
+      "net_norm": 0.4338449597338219,
+      "cohesion_norm": 0.10763017074309997,
+      "kpi_term": 0.6838813254439797,
+      "net_term": -0.2661807287847653,
+      "cohesion_raw": 1.044432587737179
+    }
+  },
+  "1._fsv_mainz_05": {
+    "resolved": "1._fsv_mainz_05",
+    "lineup": {
+      "GK": "Robin Zentner",
+      "LB": "Anthony Caci",
+      "CB1": "Sepp van den Berg",
+      "CB2": "Dominik Kohr",
+      "RB": "Phillipp Mwene",
+      "DM": "Nadiem Amiri",
+      "CM": "Jae-sung Lee",
+      "AM": "Leandro Barreiro",
+      "LW": "Marco Richter",
+      "ST": "Ludovic Ajorque",
+      "RW": "Brajan Gruda"
+    },
+    "objective": {
+      "total": 0.46094470509996327,
+      "kpi_norm": 0.6531365060828607,
+      "net_norm": 0.47956826537732083,
+      "cohesion_norm": 0.07035324970838278,
+      "kpi_term": 0.6328548387057605,
+      "net_term": -0.08177247396491578,
+      "cohesion_raw": 1.187128332286564
+    }
+  },
+  "bayer_04_leverkusen": {
+    "error": "No eligible player found for slot 'LW'. Check positions mapping or the 'positions' column."
+  },
+  "borussia_dortmund": {
+    "resolved": "borussia_dortmund",
+    "lineup": {
+      "GK": "Gregor Kobel",
+      "LB": "Ian Maatsen",
+      "CB1": "Nico Schlotterbeck",
+      "CB2": "Mats Hummels",
+      "RB": "Thomas Meunier",
+      "DM": "Marcel Sabitzer",
+      "CM": "Emre Can",
+      "AM": "Julian Brandt",
+      "LW": "Jadon Sancho",
+      "ST": "Niclas F\u00fcllkrug",
+      "RW": "Marco Reus"
+    },
+    "objective": {
+      "total": 0.4796241224838988,
+      "kpi_norm": 0.6680700837618151,
+      "net_norm": 0.5418661102558032,
+      "cohesion_norm": 0.08198487067076493,
+      "kpi_term": 0.6994692328799231,
+      "net_term": 0.167857464796158,
+      "cohesion_raw": 2.1722405812460117
+    }
+  },
+  "borussia_moenchengladbach": {
+    "resolved": "borussia_moenchengladbach",
+    "lineup": {
+      "GK": "Moritz Nicolas",
+      "LB": "Maximilian W\u00f6ber",
+      "CB1": "Nico Elvedi",
+      "CB2": "Ko Itakura",
+      "RB": "Franck Honorat",
+      "DM": "Julian Weigl",
+      "CM": "Alassane Pl\u00e9a",
+      "AM": "Florian Neuhaus",
+      "LW": "Robin Hack",
+      "ST": "Tomas Cvancara",
+      "RW": "Nathan Ngoumou"
+    },
+    "objective": {
+      "total": 0.4441134550134143,
+      "kpi_norm": 0.6261525314219241,
+      "net_norm": 0.4679494087345502,
+      "cohesion_norm": 0.07208998428934955,
+      "kpi_term": 0.5157461256386789,
+      "net_term": -0.12837839210413698,
+      "cohesion_raw": 1.3094974829488686
+    }
+  },
+  "eintracht_frankfurt": {
+    "resolved": "eintracht_frankfurt",
+    "lineup": {
+      "GK": "Jens Grahl",
+      "LB": "Willian Pacho",
+      "CB1": "Robin Koch",
+      "CB2": "Tuta",
+      "RB": "Nnamdi Collins",
+      "DM": "Ellyes Skhiri",
+      "CM": "Mario G\u00f6tze",
+      "AM": "Hugo Larsson",
+      "LW": "Far\u00e8s Cha\u00efbi",
+      "ST": "Hugo Ekitik\u00e9",
+      "RW": "Ansgar Knauff"
+    },
+    "objective": {
+      "total": 0.48109977373112117,
+      "kpi_norm": 0.6607658879749777,
+      "net_norm": 0.5448775973630963,
+      "cohesion_norm": 0.1005082706994163,
+      "kpi_term": 0.6667091335875752,
+      "net_term": 0.17999477788753884,
+      "cohesion_raw": 1.6822423768389554
+    }
+  },
+  "fc_augsburg": {
+    "resolved": "fc_augsburg",
+    "lineup": {
+      "GK": "Finn Dahmen",
+      "LB": "Mads Pedersen",
+      "CB1": "Jeffrey Gouweleeuw",
+      "CB2": "Felix Uduokhai",
+      "RB": "Kevin Mbabu",
+      "DM": "Kristijan Jakic",
+      "CM": "Niklas Dorsch",
+      "AM": "Arne Maier",
+      "LW": "Iago",
+      "ST": "Ermedin Demirovic",
+      "RW": "Fredrik Jensen"
+    },
+    "objective": {
+      "total": 0.4739255917673599,
+      "kpi_norm": 0.6618203820649735,
+      "net_norm": 0.521644206139599,
+      "cohesion_norm": 0.0822298063813863,
+      "kpi_term": 0.6714170245940061,
+      "net_term": 0.08663096382684546,
+      "cohesion_raw": 1.2677061501473292
+    }
+  },
+  "fc_bayern_muenchen": {
+    "resolved": "fc_bayern_muenchen",
+    "lineup": {
+      "GK": "Manuel Neuer",
+      "LB": "Alphonso Davies",
+      "CB1": "Min-jae Kim",
+      "CB2": "Eric Dier",
+      "RB": "Joshua Kimmich",
+      "DM": "Leon Goretzka",
+      "CM": "Aleksandar Pavlovic",
+      "AM": "Leroy San\u00e9",
+      "LW": "Jamal Musiala",
+      "ST": "Harry Kane",
+      "RW": "Thomas M\u00fcller"
+    },
+    "objective": {
+      "total": 0.4886570755501354,
+      "kpi_norm": 0.7025299663438712,
+      "net_norm": 0.4771034295397259,
+      "cohesion_norm": 0.064762509299467,
+      "kpi_term": 0.859374564309314,
+      "net_term": -0.09165038168120074,
+      "cohesion_raw": 2.102118333748315
+    }
+  },
+  "rasenballsport_leipzig": {
+    "resolved": "rasenballsport_leipzig",
+    "lineup": {
+      "GK": "Janis Blaswich",
+      "LB": "David Raum",
+      "CB1": "Willi Orb\u00e1n",
+      "CB2": "Castello Lukeba",
+      "RB": "Benjamin Henrichs",
+      "DM": "Xaver Schlager",
+      "CM": "Xavi Simons",
+      "AM": "Amadou Haidara",
+      "LW": "Dani Olmo",
+      "ST": "Lo\u00efs Openda",
+      "RW": "Emil Forsberg"
+    },
+    "objective": {
+      "total": 0.47780846732528004,
+      "kpi_norm": 0.6727216709079014,
+      "net_norm": 0.4986668408315086,
+      "cohesion_norm": 0.08102926899129453,
+      "kpi_term": 0.7205207111607819,
+      "net_term": -0.005332649311041271,
+      "cohesion_raw": 2.116257582103485
+    }
+  },
+  "sc_freiburg": {
+    "resolved": "sc_freiburg",
+    "lineup": {
+      "GK": "Noah Atubolu",
+      "LB": "Christian G\u00fcnter",
+      "CB1": "Philipp Lienhart",
+      "CB2": "Matthias Ginter",
+      "RB": "Kiliann Sildillia",
+      "DM": "Maximilian Eggestein",
+      "CM": "Vincenzo Grifo",
+      "AM": "Ritsu Doan",
+      "LW": "Lucas H\u00f6ler",
+      "ST": "Roland Sallai",
+      "RW": "Merlin R\u00f6hl"
+    },
+    "objective": {
+      "total": 0.4073717311069862,
+      "kpi_norm": 0.5740887825479611,
+      "net_norm": 0.474784399093821,
+      "cohesion_norm": 0.05146673889609139,
+      "kpi_term": 0.29855314297532315,
+      "net_term": -0.1009480423353699,
+      "cohesion_raw": 1.3723197557109017
+    }
+  },
+  "sv_darmstadt_98": {
+    "resolved": "sv_darmstadt_98",
+    "lineup": {
+      "GK": "Marcel Schuhen",
+      "LB": "Emir Karic",
+      "CB1": "Christoph Klarer",
+      "CB2": "Matthias Bader",
+      "RB": "Fabian N\u00fcrnberger",
+      "DM": "Tobias Kempe",
+      "CM": "Marvin Mehlem",
+      "AM": "Luca Pfeiffer",
+      "LW": "Gerrit Holtmann",
+      "ST": "Sebastian Polter",
+      "RW": "Julian Justvan"
+    },
+    "objective": {
+      "total": 0.47143039628660127,
+      "kpi_norm": 0.675490693029669,
+      "net_norm": 0.4633540089669739,
+      "cohesion_norm": 0.06600193190700826,
+      "kpi_term": 0.733125162717804,
+      "net_term": -0.14684728241208644,
+      "cohesion_raw": 1.2497021605744694
+    }
+  },
+  "sv_werder_bremen": {
+    "error": "No eligible player found for slot 'LW'. Check positions mapping or the 'positions' column."
+  },
+  "tsg_1899_hoffenheim": {
+    "resolved": "tsg_1899_hoffenheim",
+    "lineup": {
+      "GK": "Oliver Baumann",
+      "LB": "Stanley Nsoki",
+      "CB1": "Kevin Vogt",
+      "CB2": "Florian Grillitsch",
+      "RB": "Pavel Kaderabek",
+      "DM": "Andrej Kramaric",
+      "CM": "Anton Stach",
+      "AM": "Grischa Pr\u00f6mel",
+      "LW": "Maximilian Beier",
+      "ST": "Wout Weghorst",
+      "RW": "Ihlas Bebou"
+    },
+    "objective": {
+      "total": 0.4112769603381368,
+      "kpi_norm": 0.5732159616978652,
+      "net_norm": 0.5062037312637466,
+      "cohesion_norm": 0.05575670064347693,
+      "kpi_term": 0.2949844220270372,
+      "net_term": 0.024816198551542157,
+      "cohesion_raw": 1.1843740221727732
+    }
+  },
+  "vfb_stuttgart": {
+    "resolved": "vfb_stuttgart",
+    "lineup": {
+      "GK": "Fabian Bredlow",
+      "LB": "Hiroki Ito",
+      "CB1": "Waldemar Anton",
+      "CB2": "Angelo Stiller",
+      "RB": "Pascal Stenzel",
+      "DM": "Atakan Karazor",
+      "CM": "Mahmoud Dahoud",
+      "AM": "Deniz Undav",
+      "LW": "Chris F\u00fchrich",
+      "ST": "Serhou Guirassy",
+      "RW": "Enzo Millot"
+    },
+    "objective": {
+      "total": 0.4801927521429536,
+      "kpi_norm": 0.6432688616157011,
+      "net_norm": 0.5339827815426137,
+      "cohesion_norm": 0.13611052339757188,
+      "kpi_term": 0.5895803888262958,
+      "net_term": 0.13614101121571423,
+      "cohesion_raw": 2.7912605576987883
+    }
+  },
+  "vfl_bochum": {
+    "resolved": "vfl_bochum",
+    "lineup": {
+      "GK": "Manuel Riemann",
+      "LB": "Bernardo",
+      "CB1": "Keven Schlotterbeck",
+      "CB2": "Ivan Ordets",
+      "RB": "Felix Passlack",
+      "DM": "Kevin St\u00f6ger",
+      "CM": "Philipp F\u00f6rster",
+      "AM": "Patrick Osterhage",
+      "LW": "Maximilian Wittek",
+      "ST": "Gon\u00e7alo Paci\u00eancia",
+      "RW": "Anthony Losilla"
+    },
+    "objective": {
+      "total": 0.5233469500110911,
+      "kpi_norm": 0.6628633829918009,
+      "net_norm": 0.5151117903441732,
+      "cohesion_norm": 0.2470591372719776,
+      "kpi_term": 0.6760806701978622,
+      "net_term": 0.06046557692290844,
+      "cohesion_raw": 1.4155884376810348
+    }
+  },
+  "vfl_wolfsburg": {
+    "resolved": "vfl_wolfsburg",
+    "lineup": {
+      "GK": "Koen Casteels",
+      "LB": "Joakim Maehle",
+      "CB1": "Maxence Lacroix",
+      "CB2": "Moritz Jenz",
+      "RB": "Ridle Baku",
+      "DM": "Maximilian Arnold",
+      "CM": "Lovro Majer",
+      "AM": "Mattias Svanberg",
+      "LW": "Kevin Paredes",
+      "ST": "Jonas Wind",
+      "RW": "Vaclav Cerny"
+    },
+    "objective": {
+      "total": 0.4914728311149666,
+      "kpi_norm": 0.6732120498393817,
+      "net_norm": 0.5094777701017434,
+      "cohesion_norm": 0.12199274733721083,
+      "kpi_term": 0.7227488714094258,
+      "net_term": 0.03791562202787943,
+      "cohesion_raw": 1.4225745327628119
+    }
+  }
+}
